@@ -12,35 +12,44 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-          <img src={IMG1} alt="crwn site" />
-          <h3>Crwn Clothing</h3>
-          <a
-            href="https://github.com/safisiddiqui/crwn-clothing"
-            className="btn btn-primary"
-          >
-            Check it Out
-          </a>
+            <img src={IMG1} alt="crwn site" />
+            <h3>Crwn Clothing</h3>
+            <a
+              href="https://github.com/safisiddiqui/crwn-clothing"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
+              Check it Out
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-          <img src={scoreboard} alt="scoreboard" />
-          <h3>Scoreboard Web-app</h3>
-          <a
-            href="https://github.com/safisiddiqui/scoreboard-app"
-            className="btn btn-primary"
-          >
-            Check it Out
-          </a>
+            <img src={scoreboard} alt="scoreboard" />
+            <h3>Scoreboard Web-app</h3>
+            <a
+              href="https://github.com/safisiddiqui/scoreboard-app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it Out
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-          <img src={mem} alt="crwn site" />
-          <h3>Memory Game Web-app</h3>
-          <a href="https://github.com/safisiddiqui/memory-game" className="btn btn-primary">
-            Check it Out
-          </a>
+            <img src={mem} alt="crwn site" />
+            <h3>Memory Game Web-app</h3>
+            <a
+              href="https://github.com/safisiddiqui/memory-game"
+              rel="noreferrer"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Check it Out
+            </a>
           </div>
         </article>
       </div>
